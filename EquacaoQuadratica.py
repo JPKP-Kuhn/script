@@ -73,6 +73,7 @@ def coefQuadratica(equation):
         pass
     
     elif len(equation) == 7:
+        print(equation[-1])
         if equation[-1] == '0': #Teste de equação balanceada
             a = coefA(equation[0])
             if equation[1] == '+':
@@ -91,6 +92,6 @@ def coefQuadratica(equation):
         pass 
     return(f'a = {a}, b = {b}, c = {c}')
 
-print(coefQuadratica('- 4x + 1 = 2x²'))
+print(coefQuadratica('2x² - 4x + 1 = 0'))
 
 

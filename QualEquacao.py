@@ -3,8 +3,7 @@ def grauEquacao(equacao):
     grau = 0
     for i in range(10):
         if sobrescrito[i] in equacao:
-            grau = i
-            
+            grau = i      
     if grau == 0:
         print('A equação não é de grau 1')
         return grau
